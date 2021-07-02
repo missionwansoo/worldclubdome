@@ -1,0 +1,32 @@
+@font-face{
+    font-family:'SpoqaHanSans';
+    src:url('NotoSansKR-Black.eot');
+    font-weight:900;
+}
+@font-face{
+    font-family:'SpoqaHanSans';
+    src:url('NotoSansKR-Bold.eot');
+    font-weight:700;
+}
+@font-face{
+    font-family:'SpoqaHanSans';
+    src:url('NotoSansKR-Medium.eot');
+    font-weight:600;
+}
+@font-face{
+    font-family:'SpoqaHanSans';
+    src:url('NotoSansKR-Regular.eot');
+    font-weight:400;
+}
+@font-face{
+    font-family:'SpoqaHanSans';
+    src:url('NotoSansKR-Light.eot');
+    font-weight:200;
+}
+@font-face{
+    font-family:'SpoqaHanSans';
+    src:url('NotoSansKR-Thin.eot');
+    font-weight:100;
+}
+
+
