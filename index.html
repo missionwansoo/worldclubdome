@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <!-- 반응형 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Club Dome</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="fonts/font.css">
+  <link rel="shortcut icon" href="img/prism.ico" type="image/x-icon">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-1.12.3.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script src="js/script.js"></script>
+</head>
+<body>
+  <div id="wrapper">
+    <header id="nav_wrapper">
+      <nav id="navs_m">
+      	<div class="hambtn open">
+		  <span class="line line1"></span>
+		  <span class="line line2"></span>
+		  <span class="line line3"></span>
+		</div>
+		<div class="hambtn close"></div>
+     	<h1 class="logo_m">
+     		<a href="https://missionwansoo.com/index">
+              <img src="img/nav_logo.png" alt="logo">
+			</a>
+     	</h1>
+     	<p class="lang_choice_m">
+			<a href="#">
+				<img src="img/icon_languageearth_m.png" alt="lang_choice">
+			</a>
+     	</p>
+      </nav>
+      <nav id="navs" class="clear">
+        <ul id="nav_list">
+          <div id="logos">
+            <a href="#"><img src="img/nav_logo.png"></a>
+          </div>
+          <ul class="gnb">
+            <li><a href="#">TICKETS</a>
+                <ul class="sub">
+                    <li><span>·</span><a href="#">Main Stage</a></li>
+                    <li><span>·</span><a href="#">Climbing Stage</a></li>
+                    <li><span>·</span><a href="#">Super Maniac Stage</a></li>
+                    <li><span>·</span><a href="#">Forest Stage</a></li>
+                </ul>
+            </li>
+            <li><a href="#">LINE UP</a>
+                <ul class="sub">
+                    <li><span>·</span><a href="#">Main Stage</a></li>
+                    <li><span>·</span><a href="#">Climbing Stage</a></li>
+                    <li><span>·</span><a href="#">Super Maniac Stage</a></li>
+                    <li><span>·</span><a href="#">Forest Stage</a></li>
+                </ul>
+            </li>
+            <li><a href="#">FEATURED NEWS</a>
+                <ul class="sub">
+                    <li><span>·</span><a href="#">Main Stage</a></li>
+                    <li><span>·</span><a href="#">Climbing Stage</a></li>
+                    <li><span>·</span><a href="#">Super Maniac Stage</a></li>
+                    <li><span>·</span><a href="#">Forest Stage</a></li>
+                </ul>
+            </li>
+            <li><a href="#">LOCATION</a>
+                <ul class="sub">
+                    <li><span>·</span><a href="#">Main Stage</a></li>
+                    <li><span>·</span><a href="#">Climbing Stage</a></li>
+                    <li><span>·</span><a href="#">Super Maniac Stage</a></li>
+                    <li><span>·</span><a href="#">Forest Stage</a></li>
+                </ul>
+            </li>
+            <li><a href="#">GALLERY</a>
+                <ul class="sub">
+                    <li><span>·</span><a href="#">Main Stage</a></li>
+                    <li><span>·</span><a href="#">Climbing Stage</a></li>
+                    <li><span>·</span><a href="#">Super Maniac Stage</a></li>
+                    <li><span>·</span><a href="#">Forest Stage</a></li>
+                </ul>
+            </li>
+            <li><a href="#">HISTORY</a>
+                <ul class="sub">
+                    <li><span>·</span><a href="#">Main Stage</a></li>
+                    <li><span>·</span><a href="#">Climbing Stage</a></li>
+                    <li><span>·</span><a href="#">Super Maniac Stage</a></li>
+                    <li><span>·</span><a href="#">Forest Stage</a></li>
+                </ul>
+            </li>
+            <li><a href="#">PRE-REGISTRATION</a>
+                <ul class="sub">
+                    <li><span>·</span><a href="#">Main Stage</a></li>
+                    <li><span>·</span><a href="#">Climbing Stage</a></li>
+                    <li><span>·</span><a href="#">Super Maniac Stage</a></li>
+                    <li><span>·</span><a href="#">Forest Stage</a></li>
+                </ul>
+            </li>
+          </ul>
+        </ul>
+        <div class="universe">
+        	<h4>Universe</h4>
+        	<p><img src="img/earth.png" alt="earth"></p>
+        </div>
+        <div class="nav_sns">
+        	<ul class="clear">
+				<li>
+					<a href="#"><img src="img/icon_facebook.png" alt="facebook"></a>
+				</li>
+				<li>
+					<a href="#"><img src="img/icon_instagram.png" alt="instagram"></a>
+				</li>
+				<li>
+					<a href="#"><img src="img/icon_youtube.png" alt="outube"></a>
+				</li>
+				<li>
+					<a href="#"><img src="img/icon_twitter.png" alt="twitter"></a>
+				</li>
+        	</ul>
+        </div>
+        <div class="nav_copy">
+        	<p>ⓒ 2018 BigCityBeats Gmbh, Germany. All Right Reserved.</p>
+        	<p>COpyRights ⓒ BY PETERPAN MPC</p>
+        </div>
+      </nav>
+    </header>
+    <div id="body_contents">
+      <section id="section01">
+        <div class="containers">
+          <div class="main">
+            <div class="main_logo">
+                <img src="img/mainlogo.png" alt="main_logo">
+            </div>
+            <div class="main_day">
+                <p>2018</p>
+                <p>SEPTEMBER 14 ~ 16</p>
+            </div>
+            <div class="main_count">
+                <h2 id="count"></h2>
+                <ul class="clear">
+                    <li>DAYS</li>
+                    <li>HOURS</li>
+                    <li>MINUTES</li>
+                    <li>SEC</li>
+                </ul>
+            </div>
+            <div class="main_tickets">
+                <a href="#">
+                    <p class="tickets"></p>
+                    <span class="text">BUY TICKETS</span>
+                </a>
+            </div>
+        </div>
+        <div class="lang clear">
+            <div class="icon_earth">
+                <img src="img/icon_languageearth.png" alt="earth">
+            </div>
+            <div class="lang_choice">
+                <select>
+                     <option class="lang_en">ENG</option>
+                     <option class="lang_ko">KOR</option>
+                     <option class="lang_en">ENG</option>
+                </select>
+            </div>
+        </div>
+        <div class="line_up">
+            <ul><p>Line-UP</p>
+                <li><img src="img/icon_lineup.png" alt="icon_lineup"><a href="#">All</a></li>
+                <li><img src="img/icon_lineup.png" alt="icon_lineup"><a href="#">Friday</a></li>
+                <li><img src="img/icon_lineup.png" alt="icon_lineup"><a href="#">Saturday</a></li>
+                <li><img src="img/icon_lineup.png" alt="icon_lineup"><a href="#">Sunday</a></li>
+            </ul>
+        </div>
+	    <div class="swiper-container">
+		    <div class="swiper-wrapper">
+			    <div class="swiper-slide">
+			        <div class="slide_bg">
+			            <img src="img/mainbg1.jpg">
+			        </div>
+			        <div class="slide_profile">
+			            <a href="#">
+                            <img src="img/main_Martin%20Garrix.png" alt="Martin Garrix">
+                        </a>
+			        </div>
+			        <div class="slide_logo">
+			            <a href="#">
+                            <img src="img/Martin%20Garrix.png" alt="Martin Garrix">
+                        </a>
+			        </div>
+			        <div class="swiper_view">
+			            <a href="#">
+			                <img src="img/view.png" alt="view">
+			                <span>VIEW</span>
+			            </a>
+			        </div>
+			    </div>
+			    <div class="swiper-slide">
+			        <div class="slide_bg">
+			            <img src="img/mainbg2.jpg">
+			        </div>
+			        <div class="slide_profile">
+			            <a href="#">
+                            <img src="img/main_SAM FELDT.png" alt="Martin Garrix">
+                        </a>
+			        </div>
+			        <div class="slide_logo">
+			            <a href="#">
+                            <img src="img/SAM FELDT.png" alt="Martin Garrix">
+                        </a>
+			        </div>
+			        <div class="swiper_view">
+			            <a href="#">
+			                <img src="img/view.png" alt="view">
+			                <span>VIEW</span>
+			            </a>
+			        </div>
+			    </div>
+			    <div class="swiper-slide">
+				    <div class="slide_bg">
+			            <img src="img/mainbg3.jpg">
+			        </div>
+			        <div class="slide_profile">
+			            <a href="#">
+                            <img src="img/main_marshmello.png" alt="Martin Garrix">
+                        </a>
+			        </div>
+			        <div class="slide_logo">
+			            <a href="#">
+                            <img src="img/marshmello.png" alt="Martin Garrix">
+                        </a>
+			        </div>
+			        <div class="swiper_view">
+			            <a href="#">
+			                <img src="img/view.png" alt="view">
+			                <span>VIEW</span>
+			            </a>
+			        </div>
+			    </div>
+		    </div>
+	    </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next" onfocus="blur()" ></div>
+        <div class="swiper-button-prev" onfocus="blur()" ></div>
+
+        </div>
+      </section>
+      <section id="section02">
+        <ul class="containers clear">
+            <li class="teaser">
+                <a href="#">
+                	<p>Teaser<span>+</span></p>
+				</a>
+                <video id="video_teaser" width="100%" poster="img/teaser_img.jpg">
+      				<source src="vod/BigCityBeats WORLD CLUB DOME Korea 2017  _ Official 4K Aftermovie.mp4" type="video/mp4">Sorry, your browser does not support HTML5 video.
+    			</video>
+          		<div class="teaser_t">
+					<div>
+						<p class="teaser_tit">BigCityBeats WORID CLUB DOME KOREA 2018 l Teawer</p>
+						<p id="teaser_play">
+							<img src="img/play.png" alt="play">
+						</p>
+						<p class="teaser_watermark">
+							<img src="img/icon_lineup.png" alt="icon">
+						</p>
+					</div>
+          		</div>           		
+            </li>
+            <li class="location">
+			    <a href="#">
+			   		<p>Location<span>+</span></p>
+			   	</a>                
+                <div class="location_bg">
+                	<img src="img/location_bg.jpg" alt="location_bg">
+                </div>
+                <div class="location_t">
+					<p class="location_tit">대한민국의<br>관문도시이자 항구도시</p>
+               		<p class="location_te">Incheon Munhak Stadium</p>
+               		<p class="location_tt">인천 문학 경기장</p>
+               		<p>
+						<a href="#">
+							<button>교통편 알아보기 →</button>
+						</a>               			
+               		</p>               		
+                </div>
+            </li>
+            <li class="bus">
+                <a href="#">
+                	<p>Shuttle Bus<span>+</span></p>
+				</a>
+                <div class="bus_bg">
+                	<img src="img/bus_bg.jpg" alt="bus_bg">
+                </div>
+                <div class="bus_t">
+                	<ul class="bus_icon clear">
+                		<li><img src="img/bus.png" alt="bus"></li>
+                		<li>여러분의 편안한 공연관람을 위해 행사기간 동안 운항되는 유료 셔틀버스 서비스를 준비했습니다.</li>
+                	</ul>
+                	<ul class="bus_link clear">
+                		<li><a href="#">Bookmark Link<br>[ 수도권 ]</a></li>
+                		<li><a href="#">Bookmark Link<br>[ 전국구 ]</a></li>
+                	</ul>
+                </div>
+            </li>
+        </ul>
+      </section>
+      <section id="section03">
+        <div class="containers">
+        </div>
+      </section>
+    </div>
+    <footer id="footers">
+	    <ul class="footer_con clear">
+			<li><a href="#">Contact Us</a></li>
+			<li><a href="#">Web Accessibility</a></li>
+			<li><a href="#">Privacy Policy</a></li>
+			<li><a href="#">Do Not Sell My Info</a></li>
+	    </ul>
+	    <p class="footer_logo">
+	    	<img src="img/footer_logo.png" alt="footer_logo">
+	    </p>
+    </footer>
+  </div>
+</body>
+</html>
